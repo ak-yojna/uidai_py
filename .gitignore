@@ -1,0 +1,28 @@
+# Allowlisting gitignore template for Python projects prevents us
+# from adding various unwanted local files, such as generated
+# files, developer configurations or IDE-specific files etc.
+#
+# Recommended: Go.AllowList.gitignore
+
+# Ignore everything
+*
+
+# But not these files...
+!/.gitignore
+
+!*.py
+!*.png
+!*.org
+!*.csv
+!*.json
+!pyproject.toml
+!poetry.lock
+
+!README.md
+!LICENSE
+
+# !Makefile
+
+# ...even if they are in subdirectories
+!*/
+
