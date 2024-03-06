@@ -1,0 +1,40 @@
+#+title: Notes
+#+options: toc:nil
+* Table of Contents :TOC_2:
+- [[#uidai][UIDAI]]
+  - [[#aadhaar-paperless-offline-e-kyc][Aadhaar Paperless Offline e-kyc]]
+  - [[#tutorial-section][Tutorial Section]]
+  - [[#data-and-download-section][Data and Download Section]]
+- [[#signxml][SignXML]]
+  - [[#documnetation][documnetation]]
+  - [[#pypi][pypi]]
+- [[#python-xmlsec][python-xmlsec]]
+  - [[#documnetation-1][documnetation]]
+- [[#stack-overflow-qa][stack overflow Q&A]]
+  - [[#how-to-validate-aadhaar-xml-signature-in-python][How to validate Aadhaar XML signature in Python?]]
+- [[#github][github]]
+  - [[#pyaadhaar][pyaadhaar]]
+  - [[#eaadhaar][eaadhaar]]
+  - [[#minisignxml-package][minisignxml package]]
+- [[#tech-notes][Tech Notes]]
+  - [[#xml-signatures-with-python-elementtree][XML Signatures with Python ElementTree]]
+
+* UIDAI
+** [[https://uidai.gov.in/en/ecosystem/authentication-devices-documents/about-aadhaar-paperless-offline-e-kyc.html][Aadhaar Paperless Offline e-kyc]]
+** [[https://uidai.gov.in/en/ecosystem/authentication-devices-documents/developer-section/915-developer-section/tutorial-section.html][Tutorial Section]]
+** [[https://uidai.gov.in/en/ecosystem/authentication-devices-documents/developer-section/916-developer-section/data-and-downloads-section.html][Data and Download Section]]
+* SignXML
+** [[https://xml-security.github.io/signxml/#][documnetation]]
+** [[https://pypi.org/project/signxml/][pypi]]
+* python-xmlsec
+** [[https://xmlsec.readthedocs.io/en/stable/index.html][documnetation]]
+* stack overflow Q&A
+** [[https://stackoverflow.com/questions/72074524/how-to-validate-aadhaar-xml-signature-in-python][How to validate Aadhaar XML signature in Python?]]
+* github
+** [[https://github.com/tanmoysrt/pyaadhaar][pyaadhaar]]
++ has not implemented xml verification and signature check.
+** [[https://github.com/kombiahrk/Offline-Aadhaar-EKYC-Verification/tree/master/eaadhaar][eaadhaar]]
++ php implementation
+** minisignxml [[https://github.com/HENNGE/minisignxml/tree/main][package]]
+* Tech Notes
+** [[https://technotes.shemyak.com/posts/xml-signatures-with-python-elementtree/][XML Signatures with Python ElementTree]]
